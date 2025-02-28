@@ -1,34 +1,34 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
+import { useState } from 'react';
 import './App.css'
+import Aside from './components/Aside'
+import Header from './components/Header'
+
+import MainRout from './Router/MainRout'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  console.log(isSidebarOpen)
+
+  // Toggle sidebar visibility
+  const toggleSidebar = () => {
+    setIsSidebarOpen(!isSidebarOpen);
+  };
+
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div >
+      <div  className={`fixed top-0 z-10 transition-transform duration-300 ${isSidebarOpen ? "translate-x-0" : "-translate-x-full"} md:translate-x-0`}>
+      <Aside toggleSidebar={toggleSidebar}/>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+    
+      <div className='md:ms-[250px]'>
+      <Header  toggleSidebar={toggleSidebar}/>
+      <MainRout />
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+     
+     
+    </div>
   )
 }
 
