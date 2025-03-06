@@ -15,7 +15,7 @@ function Skill() {
   return (
     <div className='mainskill pb-20'>
       <div className='wow animate__animated animate__flipInX text-center font-bold text-5xl p-10'>MY SKILLS</div>
-      <div className=' w-[65%] grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-6 gap-10 m-auto mt-10'>
+      <div className=' md:w-[65%] p-2 grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-6 gap-10 m-auto mt-10'>
         <div className='wow animate__animated animate__lightSpeedInLeft skill shadow-md shadow-white h-[110px] rounded-lg font-bold flex flex-col items-center justify-between p-1'><img src={html} alt="" width={"70px"}/>Html</div>
         <div className='wow animate__animated animate__lightSpeedInLeft skill shadow-md shadow-white h-[110px] rounded-lg font-bold flex flex-col items-center justify-between p-1'><img src={css} alt="" width={"70px"}/> Css</div>
         <div className='wow animate__animated animate__lightSpeedInLeft skill shadow-md shadow-white h-[110px] rounded-lg font-bold flex flex-col items-center justify-between p-1'><img src={javascript} alt="" width={"60px"} className='mt-2'/> Javascript</div>

@@ -4,7 +4,7 @@ function Education() {
   return (
     <div className='edu h-auto xl:h-[720px] flex justify-around'>
       <div className='w-[40%] mt-20'>
-        <h1 className='wow animate__animated animate__flipInX font-bold text-3xl'>Education</h1>
+        <h1 className='wow animate__animated animate__flipInX font-bold md:text-3xl'>Education</h1>
         <div className='wow animate__animated animate__slideInLeft border-b border-[gray] p-3 mt-5'>
           <h4 className='border border-[#109BBB]  w-[120px] text-center font-medium text-[#1DBAB5]'>2023-NOW</h4>
           <h5 className='font-medium mt-2'>BCA</h5>
@@ -26,7 +26,7 @@ function Education() {
       </div>
 
       <div className='w-[40%] mt-20'>
-      <h1 className='wow animate__animated animate__flipInX font-bold text-3xl'>Certificates</h1>
+      <h1 className='wow animate__animated animate__flipInX font-bold md:text-3xl'>Certificates</h1>
       <div className='wow animate__animated animate__slideInRight border-b border-[gray] p-3 mt-5'>
         <h4 className='border border-[#109BBB] w-[120px] text-center font-medium text-[#1DBAB5]'>2024</h4>
         <h5 className='font-medium mt-2'>TechWer 2024</h5>
