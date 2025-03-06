@@ -8,19 +8,19 @@ function Education() {
         <div className='wow animate__animated animate__slideInLeft border-b border-[gray] p-3 mt-5'>
           <h4 className='border border-[#109BBB]  w-[120px] text-center font-medium text-[#1DBAB5]'>2023-NOW</h4>
           <h5 className='font-medium mt-2'>BCA</h5>
-          <p className='text-[#B7B7B7] '>savras university</p>
+          <p className='text-[#B7B7B7] '>saurashtra university</p>
           <p className='text-[#B7B7B7]'>Currently pursuing BCA(Bachelor of Computer Applications), focusing on front-end development, programming languages, and web technologies.</p>
         </div>
         <div className='wow animate__animated animate__slideInLeft border-b border-[gray] p-3 mt-5'>
         <h4 className='border border-[#109BBB]  w-[120px] text-center font-medium text-[#1DBAB5]'>2021-2023</h4>
         <h5 className='font-medium mt-2'>HSC</h5>
-        <p className='text-[#B7B7B7] '>D.J.P Kanya Vidyalay</p>
+        <p className='text-[#B7B7B7] '>D.J.P Kanya vidhyalay</p>
         <p className='text-[#B7B7B7]'>Completed with a strong focus on key academic subjects, laying the foundation for higher education in technology.</p>
         </div>
         <div className='wow animate__animated animate__slideInLeft border-b border-[gray] p-3 mt-5'>
         <h4 className='border border-[#109BBB] w-[120px] text-center font-medium text-[#1DBAB5]'>2019-2021</h4>
         <h5 className='font-medium mt-2'> SSC</h5>
-        <p className='text-[#B7B7B7] '>M.M.Gandhi Vidyalay</p>
+        <p className='text-[#B7B7B7] '>M.M.Gandhi vidhyalay</p>
         <p className='text-[#B7B7B7]'>Achieved excellent grades and actively participated in academic and co-curricular activities.</p>
         </div>
       </div>
