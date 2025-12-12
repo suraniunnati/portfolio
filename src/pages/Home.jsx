@@ -32,7 +32,7 @@ function Home() {
 
         <p className='wow animate__animated animate__lightSpeedInRight mt-10 text-[10px] xl:text-[15px]'>Versatile web developer skilled in HTML, CSS, JavaScript, and React, specializing in creating responsive and user-friendly interfaces. Currently pursuing a BCA, combining technical expertise with strong communication to deliver impactful digital solutions. Passionate about problem-solving and innovation.</p>
 
-        <a href="https://drive.google.com/file/d/1qNQGZ4koFv7X8wR5YrsSQS9zoR5q2yR7/view?usp=drive_link"><button className='wow animate__animated animate__rotateIn bg-gradient-to-r from-[#1DBAB5] to-[#109BBB] w-[180px] h-[50px] mt-8'>Download CV <i class="fa-solid fa-download"></i></button></a>
+        <a href="https://drive.google.com/file/d/1nd24Hsa-2QxR4xYs0PQgqZ7g3ue9MIyM/view?usp=drive_link"><button className='wow animate__animated animate__rotateIn bg-gradient-to-r from-[#1DBAB5] to-[#109BBB] w-[180px] h-[50px] mt-8'>Download CV <i class="fa-solid fa-download"></i></button></a>
       </div>
     </div>
     <About/>
